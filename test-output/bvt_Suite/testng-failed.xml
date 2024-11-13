@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [bvt_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="bvt_test(failed)">
+    <classes>
+      <class name="testcases.myfirstetstFW">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.myfirstetstFW -->
+    </classes>
+  </test> <!-- bvt_test(failed) -->
+</suite> <!-- Failed suite [bvt_Suite] -->
